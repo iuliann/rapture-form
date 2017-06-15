@@ -22,7 +22,7 @@ class Form extends Element
      * @param array  $meta       Extra meta information
      * @param string $scope      If is not provided then $name is used instead (backwards compatibility)
      */
-    public function __construct($name, array $elements = [], array $attributes = [], array $meta = [], $scope = null)
+    public function __construct($name = 'form', array $elements = [], array $attributes = [], array $meta = [], $scope = null)
     {
         $this->elements = $elements;
         $this->attributes += ['name' => $name] + $attributes;

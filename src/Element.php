@@ -30,7 +30,7 @@ class Element
      * @param array  $meta       Extra meta information
      * @param string $scope      Element scope
      */
-    public function __construct($name, $value = null, array $attributes = [], array $meta = [], $scope = null)
+    public function __construct($name = 'form', $value = null, array $attributes = [], array $meta = [], $scope = null)
     {
         $this->meta = $meta + $this->meta;
         $this->attributes += ['name' => $name] + $attributes;
