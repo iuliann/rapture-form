@@ -13,7 +13,7 @@ PHP OOP implementation for html forms.
 ## Install
 
 ```
-composer require iuliann/rapture-form
+composer require mrjulio/rapture-form
 ```
 
 ## Quick start
